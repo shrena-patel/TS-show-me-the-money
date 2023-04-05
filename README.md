@@ -121,7 +121,7 @@ Authentication is already set up in the client side of this project using Auth0.
 
 When you wish to protect your server side routes (those for registered users only), you may need to reference other exercises or materials.
 
-If you wish to replace the Auth0 authentication with your own, so you can customise the login for example, you will need to updated the `client/index.tsx` file of the project with your own Auth0 details.
+If you wish to replace the Auth0 authentication with your own, so you can customise the login for example, you will need to update the `client/index.tsx` file of the project with your own Auth0 details.
 
 
 ## Setup
