@@ -1,7 +1,5 @@
 function Login() {
-  return (
-   <h2 className="welcome-text">Please login</h2>
-  )
+  return <h2 className="welcome-text">Please login</h2>;
 }
 
-export default Login
+export default Login;
