@@ -8,7 +8,7 @@ import reducers from './reducers'
 
 export type RootState = ReturnType<typeof store.getState>
 export type ThunkAction<T = void> = BaseThunkAction<
-  Promise<T>,
+  Promise<T> | void,
   RootState,
   void,
   AnyAction
